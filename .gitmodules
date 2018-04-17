@@ -1,0 +1,4 @@
+
+[submodule "muse-lsl-alex"]
+	path = muse-lsl-alex
+	url = https://github.com/alexandrebarachant/muse-lsl
