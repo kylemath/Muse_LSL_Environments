@@ -1,0 +1,310 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "muse-lsl-alexB/lsl-viewer-V2.py",
+			"settings":
+			{
+				"buffer_size": 8348,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/kyle/Dropbox/experiments/MuseLSL/baselineAssay/DataAnalysis/list of datasets",
+		"/Users/kyle/Dropbox/Teaching/CogNeuro375_2018_Winter/Assignment/Results/AnalysisVideoLinks.txt",
+		"/Users/kyle/Dropbox/Teaching/Comittees/Sucheta/candidacy exam questions",
+		"/Users/kyle/Dropbox/Review/The intro is good, one major difference between th",
+		"/Users/kyle/Desktop/FrontiersReviewerQs",
+		"/Users/kyle/Dropbox/MISC/10333/Evangeline, chat about td vs first",
+		"/Users/kyle/Dropbox/experiments/duckrabbit2 text",
+		"/Users/kyle/Dropbox/Review/In their manuscript entitled \"Cross-modal Attentio",
+		"/Users/kyle/Downloads/198348.itm",
+		"/Users/kyle/Downloads/MacAssistant-0.2/README.md",
+		"/Users/kyle/Dropbox/experiments/matlab/muse-lsl-master/lsl-viewer-V2.py",
+		"/Users/kyle/Dropbox/tenurePubPlan",
+		"/Users/kyle/Dropbox/Teaching/Psych 275 - Fall 2017/Grades/examresultsfor197663/197663.itm",
+		"/Users/kyle/.hammerspoon/init.lua",
+		"/Users/kyle/Dropbox/AppLab/LabStudents/Lei/DefenseQuestions",
+		"/Users/kyle/Dropbox/experiments/matlab/Muse_LSL_Stuff/environment_psychopy.yml",
+		"/Users/kyle/Dropbox/Talks/Victoria2017Fall/VICTORIA2017_Symposium_Outline.txt",
+		"/Users/kyle/Downloads/environment_lsl.yml",
+		"/Users/kyle/Dropbox/experiments/matlab/muse_lsl_instructions.txt",
+		"/Users/kyle/Downloads/197700.itm",
+		"/Users/kyle/Downloads/197663.itm",
+		"/Users/kyle/Dropbox/experiments/matlab/Cannabis/Meeting With Jason Notes phone.txt",
+		"/Users/kyle/Downloads/196824.itm",
+		"/Users/kyle/Downloads/196742 (1).itm",
+		"/Users/kyle/Downloads/196742.itm",
+		"/Users/kyle/Dropbox/Teaching/CogNeuro375_2017_Fall/Grades/Midterm1/186922.itm",
+		"/Users/kyle/Dropbox/Teaching/Psych 275 - Fall 2017/Grades/Mason Schindle - NERD RUN vol.txt",
+		"/Users/kyle/Dropbox/AppLab/PerminentlyMapServer.bat",
+		"/Users/kyle/Dropbox/experiments/matlab/muse-lsl-master/AnalyzeP3.py",
+		"/Users/kyle/Dropbox/PerminentlyMapServer.bat",
+		"/Users/kyle/Dropbox/Talks/MuseDemo/muselab_configuration_ideafest.json",
+		"/Users/kyle/Dropbox/GrantFellowships/NSERC-Engage - Interaxon/Meeting with Interaxon on Aug 3, 2017",
+		"/Users/kyle/Dropbox/GrantFellowships/CFI - Sept 2016/Application/Alberta Alignment Oct2017/notes.txt",
+		"/Users/kyle/Dropbox/council meeting",
+		"/Users/kyle/Downloads/195022.itm",
+		"/Users/kyle/Downloads/ifuse-1.1.3/src/ifuse.c",
+		"/Users/kyle/Dropbox/Service/BASICS 2017/save the date email info",
+		"/Users/kyle/Dropbox/Teaching/Psych 403-505 - Matlab/Fall16/403:505 Matlab Lession plan.txt",
+		"/Users/kyle/Dropbox/Teaching/Psych 403-505 - Matlab/Fall16/grid.m",
+		"/Users/kyle/Dropbox/potentialAI/andrea frome clarifai",
+		"/Users/kyle/Downloads/193407.itm",
+		"/Users/kyle/Dropbox/potentialAI/Ajay - strategy session - intro workshop",
+		"/Users/kyle/Dropbox/potentialAI/Chief of machine learning - Peter",
+		"/Users/kyle/Desktop/test.matlab",
+		"/Users/kyle/Dropbox/Teaching/Psych 275 - Fall 2016/Lecture Slides/Tias honours proposal meeting",
+		"/Users/kyle/Dropbox/Teaching/Psych 275 - Fall 2016/Lecture Slides/Thinking Part 1.txt",
+		"/Users/kyle/Downloads/192880r (2).itm",
+		"/Users/kyle/Downloads/192880r (1).itm",
+		"/Users/kyle/Downloads/192880r.itm",
+		"/Users/kyle/Dropbox/CouncilMeetingDeanUpdate"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "muse-lsl-alexB/lsl-viewer-V2.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 8348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "Muse_LSL_Environments.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 294.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
