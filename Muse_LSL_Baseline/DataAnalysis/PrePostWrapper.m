@@ -1,7 +1,7 @@
 
 
-prenum = '001';
-postnum = '020';
+prenum = '002';
+postnum = '004';
 block_length = 20;
 F = .1:.1:30;
 wavenum = 10;
