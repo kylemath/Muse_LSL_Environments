@@ -28,7 +28,7 @@ mywin = visual.Window([1440, 900], monitor='testMonitor', units='deg',
 mywin.mouseVisible = False
 
 #define the length of each block
-exp_length = 60.0
+exp_length = 10.0
 
 #randomly pick our condition order
 cond_order = random.randint(1,2)
