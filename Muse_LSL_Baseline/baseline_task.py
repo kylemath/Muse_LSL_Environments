@@ -28,19 +28,19 @@ mywin = visual.Window([1440, 900], monitor='testMonitor', units='deg',
 mywin.mouseVisible = False
 
 #define the length of each block
-exp_length = 90.0
+exp_length = 60.0
 
 #randomly pick our condition order
 cond_order = random.randint(1,2)
 
 #setup our instructions
-instr1 = visual.TextStim(mywin,text='Keep your eyes open for 1.5 minutes and focus on the central fixation. You CAN blink during this time. Press the spacebar to begin.',pos=(0,-3))
-instr2 = visual.TextStim(mywin,text='Keep your eyes closed for 1.5 minutes. Open them when you hear a long beep/tone. Press the spacebar to begin.',pos=(0,-3))
+instr1 = visual.TextStim(mywin,text='Keep your eyes open for 20 seconds and focus on the central fixation. You CAN blink during this time. Press the spacebar to begin.',pos=(0,-3))
+instr2 = visual.TextStim(mywin,text='Keep your eyes closed for 12 seconds, Open them when you hear a long beep/tone. Close them and press the spacebar to begin.',pos=(0,-3))
 instr3 = visual.TextStim(mywin,text='Keep your eyes closed at this time.',pos=(0,-3))
 instr4 = visual.TextStim(mywin,text='You have finished the experiment! Press the spacebar to exit.',pos=(0,-3))
 
 #setup the fixation
-fixation = visual.GratingStim(win=mywin, size=0.5, pos=[0, 0], sf=0,
+fixation = visual.GratingStim(win=mywin, size=0.1, pos=[0, 0], sf=0,
                               rgb=[1, 1, 1])
 
 core.wait(2)
@@ -73,35 +73,10 @@ if cond_order == 1:
     mywin.flip()
     timestamp = local_clock()
     outlet.push_sample([21], timestamp)
+    aud1.play()
     core.wait(exp_length)
     aud1.play()
-    
-    #display instructions for second eyes-open block
-    instr3.setAutoDraw(False)
-    instr1.setAutoDraw(True)
-    mywin.flip()
-    event.waitKeys()
-    
-    #start second eyes-open block
-    instr1.setAutoDraw(False)
-    mywin.flip()
-    timestamp = local_clock()
-    outlet.push_sample([12], timestamp)
-    core.wait(exp_length)
-    
-    #display instructions for second eyes-closed block
-    instr2.setAutoDraw(True)
-    mywin.flip()
-    event.waitKeys()
-    
-    #start second eyes-closed block
-    instr2.setAutoDraw(False)
-    instr3.setAutoDraw(True)
-    mywin.flip()
-    timestamp = local_clock()
-    outlet.push_sample([22], timestamp)
-    core.wait(exp_length)
-    aud1.play()
+
     
 elif cond_order == 2:
     timestamp = local_clock()
@@ -119,6 +94,7 @@ elif cond_order == 2:
     mywin.flip()
     timestamp = local_clock()
     outlet.push_sample([21], timestamp)
+    aud1.play()
     core.wait(exp_length)
     aud1.play()
     
@@ -136,32 +112,7 @@ elif cond_order == 2:
     outlet.push_sample([11], timestamp)
     core.wait(exp_length)
     
-    #display instructions for second eyes-closed block
-    instr2.setAutoDraw(True)
-    mywin.flip()
-    event.waitKeys()
-    
-    #start second eyes-closed block
-    instr2.setAutoDraw(False)
-    instr3.setAutoDraw(True)
-    mywin.flip()
-    timestamp = local_clock()
-    outlet.push_sample([22], timestamp)
-    core.wait(exp_length)
-    aud1.play()
-    
-    #display instructions for second eyes-open block
-    instr3.setAutoDraw(False)
-    instr1.setAutoDraw(True)
-    mywin.flip()
-    event.waitKeys()
-    
-    #start second eyes-open block
-    instr1.setAutoDraw(False)
-    mywin.flip()
-    timestamp = local_clock()
-    outlet.push_sample([12], timestamp)
-    core.wait(exp_length)
+   
 
 #display end screen
 instr3.setAutoDraw(False)
