@@ -2,3 +2,6 @@
 [submodule "muse-lsl-alexB"]
 	path = muse-lsl-alexB
 	url = https://github.com/alexandrebarachant/muse-lsl
+[submodule "muse-lsl-matlabwrap"]
+	path = muse-lsl-matlabwrap
+	url = https://github.com/kylemath/Muse-LSL-Matlab-Tools.git
