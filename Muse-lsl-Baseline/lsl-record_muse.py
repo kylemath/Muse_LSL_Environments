@@ -8,18 +8,18 @@ from pylsl import StreamInlet, resolve_byprop
 from sklearn.linear_model import LinearRegression
 
 stop_eeg = [0]
-np.savetxt('/Users/mathlab/Desktop/Baseline/Stop_EEG.csv', (stop_eeg), delimiter=',',fmt="%s")
+np.savetxt('Stop_EEG.csv', (stop_eeg), delimiter=',',fmt="%s")
 
 partnum = "001"
 
-while os.path.isfile('/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse-lsl-Baseline/data/%s_mac_muse_lsl_baseline.csv'%(partnum)) == True:
+while os.path.isfile('./data/%s_mac_muse_lsl_baseline.csv'%(partnum)) == True:
     partnum = '00'+str(int(partnum)+1)
     if int(partnum) > 9:
         partnum = '0' + str(int(partnum))
 
 filename    = '%s_mac_muse_lsl_baseline'%(partnum)
 
-default_fname = ('/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse-lsl-Baseline/data/%s.csv' % filename)
+default_fname = ('./data/%s.csv' % filename)
 
 parser = OptionParser()
 parser.add_option("-d", "--duration",
@@ -76,7 +76,7 @@ print(time_correction)
 print('Start recording at time t=%.3f' % t_init)
 
 #check_stop = np.genfromtxt('/home/pi/Experiments/Baseline/Stop_EEG.csv', delimiter=',')
-while os.path.isfile('/Users/mathlab/Desktop/Baseline/Stop_EEG.csv') == True:
+while os.path.isfile('Stop_EEG.csv') == True:
 #while inlet_marker:
     #check_stop = np.genfromtxt('/home/pi/Experiments/Baseline/Stop_EEG.csv', delimiter=',')
 #while (time() - t_init) < options.duration:

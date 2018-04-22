@@ -8,38 +8,11 @@
 	"buffers":
 	[
 		{
-			"file": "Muse_LSL_Baseline/data/RecordingNotes.txt",
-			"settings":
-			{
-				"buffer_size": 145,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "RecordingNotes.txt"
-			}
-		},
-		{
-			"file": "Muse_LSL_Baseline/baseline_task.py",
-			"settings":
-			{
-				"buffer_size": 3486,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Muse_LSL_Baseline/lsl-record_muse.py",
+			"file": "Muse-lsl-Baseline/lsl-record_muse.py",
 			"settings":
 			{
 				"buffer_size": 3855,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Muse_LSL_Baseline/DataAnalysis/PrePostWrapper.m",
-			"settings":
-			{
-				"buffer_size": 854,
 				"line_ending": "Unix"
 			}
 		}
@@ -93,13 +66,14 @@
 	"expanded_folders":
 	[
 		"/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments",
-		"/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse_LSL_Baseline",
-		"/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse_LSL_Baseline/data",
-		"/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse_LSL_Baseline/DataAnalysis"
+		"/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse-lsl-Baseline"
 	],
 	"file_history":
 	[
 		"/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse_LSL_Baseline/lsl-record_muse.py",
+		"/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse_LSL_Baseline/baseline_task.py",
+		"/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse_LSL_Baseline/data/RecordingNotes.txt",
+		"/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse_LSL_Baseline/DataAnalysis/PrePostWrapper.m",
 		"/Users/kyle/Dropbox/experiments/MuseLSL/baselineAssay/DataAnalysis/list of datasets",
 		"/Users/kyle/Dropbox/Teaching/CogNeuro375_2018_Winter/Assignment/Results/AnalysisVideoLinks.txt",
 		"/Users/kyle/Dropbox/Teaching/Comittees/Sucheta/candidacy exam questions",
@@ -184,71 +158,12 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Muse_LSL_Baseline/data/RecordingNotes.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 145,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								145,
-								145
-							]
-						],
-						"settings":
-						{
-							"auto_name": "RecordingNotes.txt",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Muse_LSL_Baseline/baseline_task.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								772,
-								772
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Muse_LSL_Baseline/lsl-record_muse.py",
+					"file": "Muse-lsl-Baseline/lsl-record_muse.py",
 					"semi_transient": false,
 					"settings":
 					{
@@ -259,8 +174,8 @@
 						"selection":
 						[
 							[
-								784,
-								784
+								775,
+								775
 							]
 						],
 						"settings":
@@ -269,37 +184,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 3.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Muse_LSL_Baseline/DataAnalysis/PrePostWrapper.m",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 854,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Objective-C/Objective-C.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
+						"translation.x": 6.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
