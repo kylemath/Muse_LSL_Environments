@@ -12,14 +12,14 @@ np.savetxt('/Users/mathlab/Desktop/Baseline/Stop_EEG.csv', (stop_eeg), delimiter
 
 partnum = "001"
 
-while os.path.isfile('/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse_LSL_Baseline/data/%s_mac_muse_lsl_baseline.csv'%(partnum)) == True:
+while os.path.isfile('/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse-lsl-Baseline/data/%s_mac_muse_lsl_baseline.csv'%(partnum)) == True:
     partnum = '00'+str(int(partnum)+1)
     if int(partnum) > 9:
         partnum = '0' + str(int(partnum))
 
 filename    = '%s_mac_muse_lsl_baseline'%(partnum)
 
-default_fname = ('/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse_LSL_Baseline/data/%s.csv' % filename)
+default_fname = ('/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse-lsl-Baseline/data/%s.csv' % filename)
 
 parser = OptionParser()
 parser.add_option("-d", "--duration",

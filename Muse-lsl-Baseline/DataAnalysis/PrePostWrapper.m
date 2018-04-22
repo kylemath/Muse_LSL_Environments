@@ -1,14 +1,16 @@
 
 
-prenum = '002';
+prenum = '005';
 postnum = '004';
 block_length = 20;
 F = .1:.1:30;
 wavenum = 10;
-path = '/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse_LSL_Baseline/data/';
+path = '/Users/kyle/Dropbox/experiments/MuseLSL/Muse_LSL_Environments/Muse-lsl-Baseline/data/';
 
 %%
 [closed_pre, open_pre, F] = MuseLSL_ComputeSpectra(path,prenum,block_length,F,wavenum);
+
+%%
 [closed_post, open_post, F] = MuseLSL_ComputeSpectra(path,postnum,block_length,F,wavenum);
 
 %%
