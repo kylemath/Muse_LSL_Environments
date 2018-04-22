@@ -5,7 +5,6 @@ MUSE Headband
 2)	On the Mac press ‘Command’ and ‘Space’, type ‘terminal’, and then press ‘Enter’
 3)	In the terminal window that opens, type the following commands:
 
-
 	source activate muse-lsl-env
   
 	cd /Users/mathlab/Downloads/muse-lsl-master
