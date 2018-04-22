@@ -125,4 +125,4 @@ event.waitKeys()
 mywin.close()
 sleep(5.0)
 
-os.remove("/Users/mathlab/Desktop/Baseline/Stop_EEG.csv")
+os.remove("Stop_EEG.csv")
