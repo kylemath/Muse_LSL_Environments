@@ -28,14 +28,14 @@ mywin = visual.Window([1440, 900], monitor='testMonitor', units='deg',
 mywin.mouseVisible = False
 
 #define the length of each block
-exp_length = 20.0
+exp_length = 1.0
 
 #randomly pick our condition order
 cond_order = random.randint(1,2)
 
 #setup our instructions
-instr1 = visual.TextStim(mywin,text='Keep your eyes open for 20 seconds and focus on the central fixation. You CAN blink during this time. Press the spacebar to begin.',pos=(0,-3))
-instr2 = visual.TextStim(mywin,text='Keep your eyes closed for 20 seconds, Open them when you hear a long beep/tone. Close them and press the spacebar to begin.',pos=(0,-3))
+instr1 = visual.TextStim(mywin,text='Keep your eyes open for 3 minutes and focus on the central fixation. You CAN blink during this time. Press the spacebar to begin.',pos=(0,-3))
+instr2 = visual.TextStim(mywin,text='Keep your eyes closed for 3 minutes, open them when you hear a long beep/tone. Close them and press the spacebar to begin.',pos=(0,-3))
 instr3 = visual.TextStim(mywin,text='Keep your eyes closed at this time.',pos=(0,-3))
 instr4 = visual.TextStim(mywin,text='You have finished the experiment! Press the spacebar to exit.',pos=(0,-3))
 
@@ -43,6 +43,9 @@ instr4 = visual.TextStim(mywin,text='You have finished the experiment! Press the
 fixation = visual.GratingStim(win=mywin, size=0.1, pos=[0, 0], sf=0,
                               rgb=[1, 1, 1])
 
+core.wait(2)
+timestamp = local_clock()
+outlet.push_sample([100], timestamp)
 core.wait(2)
 
 if cond_order == 1:

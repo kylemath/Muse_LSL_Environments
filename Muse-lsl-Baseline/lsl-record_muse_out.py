@@ -12,14 +12,14 @@ np.savetxt('Stop_EEG.csv', (stop_eeg), delimiter=',',fmt="%s")
 
 partnum = "001"
 
-while os.path.isfile('./data/%s_mac_muse_lsl_baseline.csv'%(partnum)) == True:
+while os.path.isfile('./data/Outside/%s_mac_muse_outside_lsl_baseline.csv'%(partnum)) == True:
     partnum = '00'+str(int(partnum)+1)
     if int(partnum) > 9:
         partnum = '0' + str(int(partnum))
 
-filename    = '%s_mac_muse_lsl_baseline'%(partnum)
+filename    = '%s_mac_muse_outside_lsl_baseline'%(partnum)
 
-default_fname = ('./data/%s.csv' % filename)
+default_fname = ('./data/Outside/%s.csv' % filename)
 
 parser = OptionParser()
 parser.add_option("-d", "--duration",
