@@ -1,4 +1,5 @@
 function [closed_spectra, open_spectra, F] = MuseLSL_ComputeSpectra(path, sub, block_length, F, wavenum)
+ %[closed_spectra, open_spectra, F] = MuseLSL_ComputeSpectra(path, sub, block_length, F, wavenum)
 
 %%
 rawdata = importfile_lsl([path sub '_mac_muse_lsl_baseline.csv']);

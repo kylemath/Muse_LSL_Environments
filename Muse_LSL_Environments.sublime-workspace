@@ -11,7 +11,16 @@
 			"file": "Muse-lsl-Baseline/lsl-record_muse.py",
 			"settings":
 			{
-				"buffer_size": 3855,
+				"buffer_size": 3635,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Muse-lsl-Baseline/baseline_task.py",
+			"settings":
+			{
+				"buffer_size": 3454,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -158,7 +167,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -167,15 +176,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3855,
+						"buffer_size": 3635,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								775,
-								775
+								2211,
+								2211
 							]
 						],
 						"settings":
@@ -184,8 +193,38 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 6.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Muse-lsl-Baseline/baseline_task.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3440,
+								3440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 966.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
