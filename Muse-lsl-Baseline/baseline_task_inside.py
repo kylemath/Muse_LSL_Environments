@@ -10,6 +10,11 @@ prefs.general['audioLib'] = ['pygame']
 from psychopy import visual, core, event, sound
 from pylsl import StreamInfo, StreamOutlet, local_clock
 
+import os.path
+
+scriptdir = os.path.dirname(os.path.abspath(__file__))
+scriptdir = scriptdir[:-17]
+
 # Create markers stream outlet
 info = StreamInfo('Markers', 'Markers', 1, 0, 'int32', 'myuidw43536')
 outlet = StreamOutlet(info)
@@ -28,7 +33,7 @@ mywin = visual.Window([1440, 900], monitor='testMonitor', units='deg',
 mywin.mouseVisible = False
 
 #define the length of each block
-exp_length = 1.0
+exp_length = 180.0
 
 #randomly pick our condition order
 cond_order = random.randint(1,2)
@@ -128,4 +133,6 @@ event.waitKeys()
 mywin.close()
 sleep(5.0)
 
-os.remove("Stop_EEG.csv")
+if os.path.isfile(scriptdir + 'muse-lsl-alexB/Stop_EEG.csv') == True:
+    os.remove(scriptdir + 'muse-lsl-alexB/Stop_EEG.csv')
+#os.remove("Stop_EEG.csv")
