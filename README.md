@@ -53,13 +53,17 @@ View data
 ---
 
 source activate muse-lsl-env
+
 cd dropbox/experiments/matlab/muse-lsl-master
+
 python lsl-viewer-V2.py
 
 Run task and record data (see baseline folder for baseline resting task) 
 ---
 source activate psychopyenv
+
 cd dropbox/experiments/matlab/muse-lsl-master
+
 python stimulus_presentation/generate_Visual_P300.py -d 300 & python lsl-record.py -d 300
 
 MAYBE:
